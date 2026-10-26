@@ -1,0 +1,64 @@
+{
+  "source_filename": "EarthClouds_1_12756.glb",
+  "sha256": "f0989772fa9ab1aeee32911df9b5da4ee1a938580414357ace51c9e05b5f3929",
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Cube.001"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Default OBJ",
+      "normalTexture": {
+        "index": 0,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.25,
+        "roughnessFactor": 0.8999999761581421
+      }
+    }
+  ],
+  "images": [
+    {
+      "bufferView": 4,
+      "mimeType": "image/png",
+      "name": "earth_norm.jpg"
+    },
+    {
+      "bufferView": 5,
+      "mimeType": "image/png",
+      "name": "earthClouds_diff.jpg"
+    }
+  ],
+  "decision": "Single mesh, combined Earth/cloud base color. Preserve original; use separate cloud-free surface and cloud opacity maps for production sphere layers.",
+  "meshes": [
+    {
+      "name": "Cube.002",
+      "primitives": [
+        {
+          "vertex_count": 1778,
+          "position_bounds": [
+            [
+              -499.9999694824219,
+              -498.3235168457031,
+              -500
+            ],
+            [
+              500,
+              498.32342529296875,
+              500
+            ]
+          ],
+          "index_count": 9216
+        }
+      ]
+    }
+  ],
+  "official_catalog": "https://science.nasa.gov/resource/earth-with-clouds-3d-model/"
+}

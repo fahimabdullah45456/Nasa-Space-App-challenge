@@ -1,0 +1,75 @@
+{
+  "reviews": [
+    {
+      "file": "1440-overview.png",
+      "verdict": "pass",
+      "observation": "Overview composition and all four cards retained; Moon leader visibly ends on the separate Moon, not Earth."
+    },
+    {
+      "file": "1440-reduced-moon.png",
+      "verdict": "pass",
+      "observation": "Whole lunar sphere, crater detail and readable selected-destination panel; original typography retained."
+    },
+    {
+      "file": "production-1440-mars.png",
+      "verdict": "pass",
+      "observation": "Whole Martian sphere and correct leader endpoint; selected panel no longer clips at stage bottom."
+    },
+    {
+      "file": "production-800-overview.png",
+      "verdict": "pass",
+      "observation": "Both projected labels clear the hero text and buttons; Mars sublabel remains above the bright Earth limb."
+    },
+    {
+      "file": "800-moon.png",
+      "verdict": "pass",
+      "observation": "Lunar close-up clears the text column; compact two-column destination summary stays below the sphere; expanded cards use readable rows."
+    },
+    {
+      "file": "production-800-mars.png",
+      "verdict": "pass",
+      "observation": "Martian close-up, marker and destination summary remain separated; hardware descriptions have sufficient width."
+    },
+    {
+      "file": "390-overview.png",
+      "verdict": "pass",
+      "observation": "All three bodies visible above the original mobile reading flow; navigation, archive cards and footer fit the viewport."
+    },
+    {
+      "file": "390-moon.png",
+      "verdict": "pass",
+      "observation": "Full lunar sphere above text; selected copy, both lunar cards and source/status details fit without horizontal overflow."
+    },
+    {
+      "file": "390-mars.png",
+      "verdict": "pass",
+      "observation": "Full Martian sphere above text; Spirit and Opportunity descriptions wrap cleanly with reachable actions."
+    },
+    {
+      "file": "390-hardware-dialog.png",
+      "verdict": "pass",
+      "observation": "Hardware image, mission status, description, credit and NASA source link fit the dialog. Full-page capture includes scroll-offset/backdrop artifacts, not the actual viewport arrangement."
+    },
+    {
+      "file": "production-mobile-asset-error.png",
+      "verdict": "pass",
+      "observation": "Exact missing-Moon feedback and Retry are visible; original archive and navigation remain available; ordinary Retry click passed."
+    },
+    {
+      "file": "390-settings.png",
+      "verdict": "pass",
+      "observation": "Existing anchored settings remain readable and reachable during Mars approach; speed, pause and reset fit the phone width while part of the planet remains visible."
+    }
+  ],
+  "resolved": [
+    "Selected destination panel clipping on desktop",
+    "Selected panel/sphere and cramped card descriptions on tablet",
+    "Overview marker labels overlapping tablet hero text",
+    "Mars tablet sublabel crossing bright Earth limb",
+    "Phone transparent hero padding intercepting Retry clicks"
+  ],
+  "limits": [
+    "Transient existing status toast intentionally overlays the viewport and clears after 6.5 seconds.",
+    "No claim of complete accessibility or real-device GPU testing."
+  ]
+}

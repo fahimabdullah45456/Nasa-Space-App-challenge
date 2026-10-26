@@ -1,0 +1,57 @@
+[
+  {
+    "file": "public/archive/alsep.png",
+    "bytes": 8838,
+    "sha256": "604b76406f9a64b2345f67ef994068e7677e8334c894369d61a5a2d993ee71bd"
+  },
+  {
+    "file": "public/archive/apollo-lrv.png",
+    "bytes": 10262,
+    "sha256": "90917afd756a6b0782a381ca02c42e0fa3c97b17b955e5c8c68520be0e6560ad"
+  },
+  {
+    "file": "public/archive/opportunity.png",
+    "bytes": 9690,
+    "sha256": "9330c1e9036f4730cccd833fd56f571633be1b17f8a5a5077d8d2d0e3a68b165"
+  },
+  {
+    "file": "public/archive/spirit.png",
+    "bytes": 10788,
+    "sha256": "ca64d53c34e55ce9918e18174afbf4746ece927bea1a779962fa91efc09e213d"
+  },
+  {
+    "file": "public/brand/compass.svg",
+    "bytes": 279,
+    "sha256": "40afe1bc4d7efa0cfcd0887a0580ccf3b7430e9fd227e0d98527f4bcff610ab3"
+  },
+  {
+    "file": "public/brand/orbit.svg",
+    "bytes": 577,
+    "sha256": "e36446355c31b450968f0ebd076bd5bcb6a27c036719fd261502ac4c5a6f6bcb"
+  },
+  {
+    "file": "public/textures/earth-clouds.jpg",
+    "bytes": 807805,
+    "sha256": "dd7fe6603c76c0a6a77d90e74426efd9a1637393da79569695bad49d3c74a888"
+  },
+  {
+    "file": "public/textures/earth-day.jpg",
+    "bytes": 1004147,
+    "sha256": "dff46fefe6152bd906b75d124876492f4b0f4885687734babfd719b2f2fcd28f"
+  },
+  {
+    "file": "public/textures/earth-night.jpg",
+    "bytes": 170657,
+    "sha256": "a0bcc19c3397455501f2116e998729451889c6e18765dbf9678794ac98351086"
+  },
+  {
+    "file": "public/textures/mars.jpg",
+    "bytes": 477352,
+    "sha256": "00afbc510701f8b827f8cc4951031342a6597140ba2c1976757c5458e74bb458"
+  },
+  {
+    "file": "public/textures/moon.jpg",
+    "bytes": 838981,
+    "sha256": "54925bad49f52e7ccebeb6b5c1514a3cf00286f7a0decea2888a57d825df2038"
+  }
+]

@@ -1,0 +1,4 @@
+import {chromium} from 'playwright';
+const browser=await chromium.launch({headless:true,executablePath:'/usr/local/bin/chromium',args:['--no-sandbox','--enable-webgl','--use-angle=swiftshader','--enable-unsafe-swiftshader']});
+const page=await browser.newPage({viewport:{width:1440,height:1024},deviceScaleFactor:1});const errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push(m.text())});
+await page.goto('http://127.0.0.1:5173');await page.waitForTimeout(6000);console.log(JSON.stringify({errors,status:await page.getByTestId('scene').getAttribute('data-status'),snapshot:await page.evaluate(()=>window.__SPACE_EXPLORER__?.snapshot()),overflow:await page.evaluate(()=>({doc:document.documentElement.scrollWidth,view:innerWidth}))},null,2));await page.screenshot({path:'docs/desktop-first.png',fullPage:true});await browser.close();

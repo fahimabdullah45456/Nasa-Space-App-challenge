@@ -1,0 +1,45 @@
+{
+  "results": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "states": [
+        "moon",
+        "mars",
+        "overview"
+      ],
+      "resizeInCloseup": true
+    },
+    {
+      "viewport": {
+        "width": 800,
+        "height": 1024
+      },
+      "states": [
+        "moon",
+        "mars",
+        "overview"
+      ],
+      "resizeInCloseup": true
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "states": [
+        "moon",
+        "mars",
+        "overview"
+      ],
+      "resizeInCloseup": true
+    }
+  ],
+  "errors": [],
+  "modelLoads": 3,
+  "diagnosticsOmitted": true,
+  "missingMoonFallback": true,
+  "retryAndTravel": true
+}

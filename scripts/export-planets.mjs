@@ -1,0 +1,5 @@
+import { existsSync } from 'node:fs';
+import {chromium} from 'playwright';import fs from 'node:fs/promises';
+await fs.mkdir('public/models/planets',{recursive:true});
+const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||(existsSync('/usr/local/bin/chromium')?'/usr/local/bin/chromium':undefined),headless:true,args:['--no-sandbox','--enable-webgl','--use-angle=swiftshader','--enable-unsafe-swiftshader']});
+try{for(const name of ['Earth','Mars','Moon']){const page=await browser.newPage({acceptDownloads:true});page.on('pageerror',e=>console.error(e.message));page.on('console',m=>console.log(m.type(),m.text().slice(0,250))); await page.goto(`http://127.0.0.1:5174/planet-lab.html?export&planet=${name}&still`);await page.waitForFunction(n=>window.__PLANET_LAB__?.[n]?.snapshot().meshes.length>0,name,{timeout:90000});const [download]=await Promise.all([page.waitForEvent('download',{timeout:180000}),page.evaluate(n=>window.__PLANET_LAB__[n].exportGLB(),name)]);await download.saveAs(`public/models/planets/${name.toLowerCase()}.glb`);console.log(name,'exported');await page.close();}}finally{await browser.close()}

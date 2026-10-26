@@ -1,0 +1,43 @@
+[
+  {
+    "file": "public/models/planets/earth.glb",
+    "bytes": 18379520,
+    "sha256": "0c2b5ac1bca250ec2ee5b5448f2bbc43d6554a337b6a5aeb118e24f25a1bd12d",
+    "matches_supplied_zip": true,
+    "external_dependencies": [],
+    "mesh_names": [
+      "earth-surface",
+      "earth-clouds"
+    ],
+    "rotation_clips": [
+      "earth-surface-rotation",
+      "earth-clouds-rotation"
+    ]
+  },
+  {
+    "file": "public/models/planets/mars.glb",
+    "bytes": 18886560,
+    "sha256": "8ff9e6ddc29f048254655acc5b86d1c2ace7a3ca24fdd1395fd5f3ea3fad1dce",
+    "matches_supplied_zip": true,
+    "external_dependencies": [],
+    "mesh_names": [
+      "mars-surface"
+    ],
+    "rotation_clips": [
+      "mars-surface-rotation"
+    ]
+  },
+  {
+    "file": "public/models/planets/moon.glb",
+    "bytes": 27834696,
+    "sha256": "23c68d91b5e759aa1a33fe171c59719dc954ebf35ac5d42fcea7ca60350fe7c6",
+    "matches_supplied_zip": true,
+    "external_dependencies": [],
+    "mesh_names": [
+      "moon-surface"
+    ],
+    "rotation_clips": [
+      "moon-surface-rotation"
+    ]
+  }
+]

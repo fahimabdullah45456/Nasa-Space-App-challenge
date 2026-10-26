@@ -1,0 +1,101 @@
+[
+  {
+    "file": "public/textures/planets/earth-day.jpg",
+    "size": [
+      8192,
+      4096
+    ],
+    "source": "8k_earth_daymap.jpg",
+    "treatment": "Re-encoded sRGB JPEG, no invented detail",
+    "bytes": 5529610,
+    "sha256": "89b38035f4de49dc0a62e58056d711c25c67f725aa7d21c231a2ab259190ce07"
+  },
+  {
+    "file": "public/textures/planets/earth-night.jpg",
+    "size": [
+      4096,
+      2048
+    ],
+    "source": "8k_earth_nightmap.jpg",
+    "treatment": "Re-encoded sRGB JPEG, no invented detail",
+    "bytes": 1473066,
+    "sha256": "ae98a070f2878846568bf62d81b4306298d756d7704ae10410dff2db30e1ea54"
+  },
+  {
+    "file": "public/textures/planets/mars-color.jpg",
+    "size": [
+      8192,
+      4096
+    ],
+    "source": "8k_mars.jpg",
+    "treatment": "Re-encoded sRGB JPEG, no invented detail",
+    "bytes": 10928097,
+    "sha256": "5fa280d6b25ac9d0fe79de2c500854bd1eb6f926760e9301bfd879c0ae21648b"
+  },
+  {
+    "file": "public/textures/planets/moon-color.jpg",
+    "size": [
+      8192,
+      4096
+    ],
+    "source": "lroc_color_poles_8k.tif",
+    "treatment": "Re-encoded sRGB JPEG, no invented detail",
+    "bytes": 14339890,
+    "sha256": "a066075e6b21bf223555215a124e529b385edd58d1665dcbcb78548acaeb6906"
+  },
+  {
+    "file": "public/textures/planets/earth-clouds.png",
+    "size": [
+      4096,
+      2048
+    ],
+    "source": "8k_earth_clouds.jpg",
+    "treatment": "White RGB with source grayscale as alpha, resized 4K",
+    "bytes": 8110372,
+    "sha256": "97f2ab2c0109c6f82a3bf2e6f05d85645cd5ee64377a061da79e6b1cc5d17423"
+  },
+  {
+    "file": "public/textures/planets/earth-roughness.png",
+    "size": [
+      2048,
+      1024
+    ],
+    "source": "2k_earth_specular_map.tif",
+    "treatment": "Ocean mask white mapped to roughness .33; land .86; data, not color",
+    "bytes": 135536,
+    "sha256": "260d807950de34d4120f30557a68d6796627bc299077d397912bbec0b95e24a0"
+  },
+  {
+    "file": "public/textures/planets/earth-normal.png",
+    "size": [
+      2048,
+      1024
+    ],
+    "source": "2k_earth_normal_map.tif",
+    "treatment": "Preserved tangent normal data, not inferred from albedo",
+    "bytes": 468471,
+    "sha256": "1ea106662ed680bd91ef8b2da3e135ecf4beea813894686ec1e00590bc71566e"
+  },
+  {
+    "file": "public/textures/planets/moon-normal.png",
+    "size": [
+      4096,
+      2048
+    ],
+    "source": "ldem_16_uint.tif",
+    "treatment": "LOLA half-meter DEM -> metric spherical tangent derivatives; 1.5x relief, pole fade, 4K RGB normal",
+    "bytes": 11426193,
+    "sha256": "fb8a4fae44b8e5a1097c5fffee396c4af6ea95789f01e413cdf6de1b2de8bd6e"
+  },
+  {
+    "file": "public/textures/planets/mars-normal.png",
+    "size": [
+      4096,
+      2048
+    ],
+    "source": "megt90n000eb.img",
+    "treatment": "Signed big-endian meters; roll 180deg from 0..360 to -180..180; metric spherical tangent derivatives at 1.5x relief",
+    "bytes": 6283901,
+    "sha256": "1b10ac736d31a86443fe3325cad4c37e8ef4ddd8b61a963ce5c01a07f8912a9f"
+  }
+]

@@ -1,0 +1,94 @@
+{
+  "Earth": {
+    "meshes": [
+      {
+        "name": "earth-surface",
+        "geometry": "BufferGeometry",
+        "vertices": 24897,
+        "angle": -1.2415926535897934,
+        "normal": true,
+        "mapSize": [
+          8192,
+          4096
+        ]
+      },
+      {
+        "name": "earth-clouds",
+        "geometry": "BufferGeometry",
+        "vertices": 15617,
+        "angle": -1.2415926535897934,
+        "normal": false,
+        "mapSize": [
+          4096,
+          2048
+        ]
+      }
+    ],
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "camera": [
+      0,
+      4.5248941571557e-16,
+      7.389712952838496
+    ],
+    "frames": 22,
+    "calls": 2
+  },
+  "Mars": {
+    "meshes": [
+      {
+        "name": "mars-surface",
+        "geometry": "BufferGeometry",
+        "vertices": 15617,
+        "angle": -1.3,
+        "normal": true,
+        "mapSize": [
+          8192,
+          4096
+        ]
+      }
+    ],
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "camera": [
+      0,
+      4.5248941571557e-16,
+      7.389712952838496
+    ],
+    "frames": 22,
+    "calls": 1
+  },
+  "Moon": {
+    "meshes": [
+      {
+        "name": "moon-surface",
+        "geometry": "BufferGeometry",
+        "vertices": 15617,
+        "angle": -1.5707963267948966,
+        "normal": true,
+        "mapSize": [
+          8192,
+          4096
+        ]
+      }
+    ],
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "camera": [
+      0,
+      4.5248941571557e-16,
+      7.389712952838496
+    ],
+    "frames": 22,
+    "calls": 1
+  }
+}
